@@ -1,0 +1,51 @@
+
+
+.landing-page {
+    display: flex;
+    gap: 10%;
+    margin-left: 0%;
+    justify-content: center;
+    height: 100vh;
+    background-color: #092D4C;
+  }
+  
+  .landing-content {
+    margin-left: 1%;
+    margin-top: 16%;
+    color: #fff;
+
+  }
+  .heading{
+    font-size: 5%;
+  }
+  
+  .landing-content h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  .landing-content p {
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #ff6f61;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff4b47;
+  }
+  #page{
+    border-radius: 40px;
+    margin-left: 2%;
+    margin-top: 10%;
+    width: 100%;
+  }
+  
