@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #092D4C;
+  }
+  
+  .logo img {
+    height: 50px;
+    width: 89px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    padding-right: 74px;
+    font-size: 27px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a.active {
+    color: #FFA500;
+  }
+  
+  main {
+    display: flex;
+    padding: 100px;
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .left-content, .right-content {
+    flex: 1;
+  }
+  
+  .left-content {
+    font-size: medium;
+    padding-inline-start: 16px;
+    margin-right: 69px;
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    color: #836767;
+  }
+  
+  .discover-more {
+    
+        background-color: #092D4C;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        font-size: 16px;
+        width: auto;
+        max-width: 200px;
+        cursor: pointer;
+        border-radius: 25px;
+        margin: 20px auto;
+        display: block;
+        text-align: center;
+    
+  }
+  
+  .right-content {
+    position: relative;
+    margin-right: 12%;
+  }
+  
+  .right-content img {
+    width: 135%;
+    height: 750px;
+    border-radius: 30px;
+    margin-right: 58px;
+  }
+  
+  .all {
+    margin-top: 37%;
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 5px;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    main {
+      flex-direction: column;
+      padding: 50px;
+    }
+  
+    .left-content, .right-content {
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    .right-content img {
+      width: 100%;
+      height: auto;
+      margin-right: 0;
+    }
+  
+    .all {
+      margin-top: 0;
+    }
+  
+    h2 {
+      font-size: 2em;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    header {
+      padding: 20px;
+    }
+  
+    nav {
+      display: none;
+    }
+  
+    nav.open {
+      display: block;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      right: 0;
+      background-color: #092D4C;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li {
+      padding: 10px 20px;
+      font-size: 18px;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  
+    main {
+      padding: 30px;
+    }
+  
+    h2 {
+      font-size: 1.5em;
+    }
+  
+    .discover-more {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .logo img {
+      height: 40px;
+      width: auto;
+    }
+  
+    h2 {
+      font-size: 1.2em;
+    }
+  }
