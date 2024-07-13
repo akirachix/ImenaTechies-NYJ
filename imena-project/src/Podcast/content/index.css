@@ -1,0 +1,1354 @@
+body{
+ background-color: #A4B5C4; 
+ 
+}
+.title{
+ font-size: xx-large; 
+margin-top: 10%;
+margin-left: 10%;
+font-family: 'Times New Roman', Times, serif;
+}
+#wave{
+    margin-top: -10%; 
+    margin-left: 6%;  
+   }
+
+.intro{
+ /* margin-top: 30%;  */
+ margin-left: -14%;  
+ color: white;
+}
+#quinte{
+    margin-top:-5%; 
+    margin-left: 10%;  
+    color: rgb(230, 20, 20);  
+    font-size: 60px; 
+    /* font-weight: bolder; */
+}
+#slogan{
+font-size: 40px; 
+margin-left: 10%;
+color: rgb(36, 133, 133);
+font-weight: bolder;  
+margin-top: -4%;
+font-family: 'Times New Roman', Times, serif;
+}
+#soon{
+ font-weight: bolder;   
+ font-size: 70px;
+ margin-top: 6%;
+ margin-left: 10%;
+}
+
+#show{
+ margin-left: 10%;   
+}
+#Kur{
+ margin-left: 62%;
+ margin-top: -30%;
+  border-radius: 160px;
+ width: 120px;
+ height: 120px;
+ display: grid;
+ gap: 5%; 
+
+}
+
+#Ndau{
+    margin-left: 56%;
+    margin-top: -7%;
+     border-radius: 160px;
+    width: 120px;
+    height: 120px;
+    display: grid;
+    gap: 5%;    
+}
+#profiles{
+    margin-left: 70%;
+    margin-top: -5%;
+    gap: 5%; 
+    color: rgb(7, 38, 66); 
+    font-size: 20px;      
+    }
+    #call{
+     margin-top: 25%; 
+     margin-left: 60%; 
+     background-color: rgb(241, 189, 18); 
+     border-radius: 12px;
+     padding: 10px 20px;
+     font-size: medium;
+    }
+ #amplifyer{
+    margin-left: 56%;
+    margin-top: -18%;
+     border-radius: 160px;
+    width: 120px;
+    height: 120px;
+    display: grid;
+    gap: 5%;   
+ }  
+ #free{
+    margin-left: 64%;
+    margin-top: -5%; 
+    font-size: 15px;
+    color: aliceblue;  
+ } 
+ #vida{
+    margin-left: 60%;
+    margin-top: 6%;
+     border-radius: 160px;
+    width: 120px;
+    height: 120px;
+    display: grid;
+    gap: 5%; 
+ }
+ #five{
+    margin-left: 60%;
+    margin-top: -1%;  
+    font-size: 100px; 
+    font-weight: bolder;
+    color: #fafefe;
+ }
+ #records{
+    margin-left: 64%;
+    margin-top: -10%;  
+    font-size: 20px; 
+    /* font-weight: bolder; */
+    color: #fafefe;   
+ }
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 390px) {
+    body{
+        background-color: #A4B5C4; 
+        
+       }
+       .title{
+        font-size: xx-large; 
+       margin-top: 10%;
+       margin-left: 10%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #wave{
+           margin-top: -10%; 
+           margin-left: 6%;  
+          }
+       
+       .intro{
+        /* margin-top: 30%;  */
+        margin-left: -14%;  
+        color: white;
+       }
+       #quinte{
+           margin-top:-5%; 
+           margin-left: 10%;  
+           color: rgb(230, 20, 20);  
+           font-size: 60px; 
+           /* font-weight: bolder; */
+       }
+       #slogan{
+       font-size: 40px; 
+       margin-left: 10%;
+       color: rgb(36, 133, 133);
+       font-weight: bolder;  
+       margin-top: -4%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #soon{
+        font-weight: bolder;   
+        font-size: 70px;
+        margin-top: 6%;
+        margin-left: 10%;
+       }
+       
+       #show{
+        margin-left: 10%;   
+       }
+       #Kur{
+        margin-left: 62%;
+        margin-top: -30%;
+         border-radius: 160px;
+        width: 120px;
+        height: 120px;
+        display: grid;
+        gap: 5%; 
+       
+       }
+       
+       #Ndau{
+           margin-left: 56%;
+           margin-top: -7%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;    
+       }
+       #profiles{
+           margin-left: 70%;
+           margin-top: -5%;
+           gap: 5%; 
+           color: rgb(7, 38, 66); 
+           font-size: 20px;      
+           }
+           #call{
+            margin-top: 25%; 
+            margin-left: 60%; 
+            background-color: rgb(241, 189, 18); 
+            border-radius: 12px;
+            padding: 10px 20px;
+            font-size: medium;
+           }
+        #amplifyer{
+           margin-left: 56%;
+           margin-top: -18%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;   
+        }  
+        #free{
+           margin-left: 64%;
+           margin-top: -5%; 
+           font-size: 15px;
+           color: aliceblue;  
+        } 
+        #vida{
+           margin-left: 60%;
+           margin-top: 6%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%; 
+        }
+        #five{
+           margin-left: 60%;
+           margin-top: -1%;  
+           font-size: 100px; 
+           font-weight: bolder;
+           color: #fafefe;
+        }
+        #records{
+           margin-left: 64%;
+           margin-top: -10%;  
+           font-size: 20px; 
+           /* font-weight: bolder; */
+           color: #fafefe;   
+        }
+       
+
+}
+
+@media screen and (min-width: 391px) and (max-width: 399px) {
+    body{
+        background-color: #A4B5C4; 
+        
+       }
+       .title{
+        font-size: xx-large; 
+       margin-top: 10%;
+       margin-left: 10%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #wave{
+           margin-top: -10%; 
+           margin-left: 6%;  
+          }
+       
+       .intro{
+        /* margin-top: 30%;  */
+        margin-left: -14%;  
+        color: white;
+       }
+       #quinte{
+           margin-top:-5%; 
+           margin-left: 10%;  
+           color: rgb(230, 20, 20);  
+           font-size: 60px; 
+           /* font-weight: bolder; */
+       }
+       #slogan{
+       font-size: 40px; 
+       margin-left: 10%;
+       color: rgb(36, 133, 133);
+       font-weight: bolder;  
+       margin-top: -4%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #soon{
+        font-weight: bolder;   
+        font-size: 70px;
+        margin-top: 6%;
+        margin-left: 10%;
+       }
+       
+       #show{
+        margin-left: 10%;   
+       }
+       #Kur{
+        margin-left: 62%;
+        margin-top: -30%;
+         border-radius: 160px;
+        width: 120px;
+        height: 120px;
+        display: grid;
+        gap: 5%; 
+       
+       }
+       
+       #Ndau{
+           margin-left: 56%;
+           margin-top: -7%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;    
+       }
+       #profiles{
+           margin-left: 70%;
+           margin-top: -5%;
+           gap: 5%; 
+           color: rgb(7, 38, 66); 
+           font-size: 20px;      
+           }
+           #call{
+            margin-top: 25%; 
+            margin-left: 60%; 
+            background-color: rgb(241, 189, 18); 
+            border-radius: 12px;
+            padding: 10px 20px;
+            font-size: medium;
+           }
+        #amplifyer{
+           margin-left: 56%;
+           margin-top: -18%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;   
+        }  
+        #free{
+           margin-left: 64%;
+           margin-top: -5%; 
+           font-size: 15px;
+           color: aliceblue;  
+        } 
+        #vida{
+           margin-left: 60%;
+           margin-top: 6%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%; 
+        }
+        #five{
+           margin-left: 60%;
+           margin-top: -1%;  
+           font-size: 100px; 
+           font-weight: bolder;
+           color: #fafefe;
+        }
+        #records{
+           margin-left: 64%;
+           margin-top: -10%;  
+           font-size: 20px; 
+           /* font-weight: bolder; */
+           color: #fafefe;   
+        }
+       
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 480px) {
+    body{
+        background-color: #A4B5C4; 
+        
+       }
+       .title{
+        font-size: xx-large; 
+       margin-top: 10%;
+       margin-left: 10%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #wave{
+           margin-top: -10%; 
+           margin-left: 6%;  
+          }
+       
+       .intro{
+        /* margin-top: 30%;  */
+        margin-left: -14%;  
+        color: white;
+       }
+       #quinte{
+           margin-top:-5%; 
+           margin-left: 10%;  
+           color: rgb(230, 20, 20);  
+           font-size: 60px; 
+           /* font-weight: bolder; */
+       }
+       #slogan{
+       font-size: 40px; 
+       margin-left: 10%;
+       color: rgb(36, 133, 133);
+       font-weight: bolder;  
+       margin-top: -4%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #soon{
+        font-weight: bolder;   
+        font-size: 70px;
+        margin-top: 6%;
+        margin-left: 10%;
+       }
+       
+       #show{
+        margin-left: 10%;   
+       }
+       #Kur{
+        margin-left: 62%;
+        margin-top: -30%;
+         border-radius: 160px;
+        width: 120px;
+        height: 120px;
+        display: grid;
+        gap: 5%; 
+       
+       }
+       
+       #Ndau{
+           margin-left: 56%;
+           margin-top: -7%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;    
+       }
+       #profiles{
+           margin-left: 70%;
+           margin-top: -5%;
+           gap: 5%; 
+           color: rgb(7, 38, 66); 
+           font-size: 20px;      
+           }
+           #call{
+            margin-top: 25%; 
+            margin-left: 60%; 
+            background-color: rgb(241, 189, 18); 
+            border-radius: 12px;
+            padding: 10px 20px;
+            font-size: medium;
+           }
+        #amplifyer{
+           margin-left: 56%;
+           margin-top: -18%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;   
+        }  
+        #free{
+           margin-left: 64%;
+           margin-top: -5%; 
+           font-size: 15px;
+           color: aliceblue;  
+        } 
+        #vida{
+           margin-left: 60%;
+           margin-top: 6%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%; 
+        }
+        #five{
+           margin-left: 60%;
+           margin-top: -1%;  
+           font-size: 100px; 
+           font-weight: bolder;
+           color: #fafefe;
+        }
+        #records{
+           margin-left: 64%;
+           margin-top: -10%;  
+           font-size: 20px; 
+           /* font-weight: bolder; */
+           color: #fafefe;   
+        }
+       
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 550px) {
+    body{
+        background-color: #A4B5C4; 
+        
+       }
+       .title{
+        font-size: xx-large; 
+       margin-top: 10%;
+       margin-left: 10%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #wave{
+           margin-top: -10%; 
+           margin-left: 6%;  
+          }
+       
+       .intro{
+        /* margin-top: 30%;  */
+        margin-left: -14%;  
+        color: white;
+       }
+       #quinte{
+           margin-top:-5%; 
+           margin-left: 10%;  
+           color: rgb(230, 20, 20);  
+           font-size: 60px; 
+           /* font-weight: bolder; */
+       }
+       #slogan{
+       font-size: 40px; 
+       margin-left: 10%;
+       color: rgb(36, 133, 133);
+       font-weight: bolder;  
+       margin-top: -4%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #soon{
+        font-weight: bolder;   
+        font-size: 70px;
+        margin-top: 6%;
+        margin-left: 10%;
+       }
+       
+       #show{
+        margin-left: 10%;   
+       }
+       #Kur{
+        margin-left: 62%;
+        margin-top: -30%;
+         border-radius: 160px;
+        width: 120px;
+        height: 120px;
+        display: grid;
+        gap: 5%; 
+       
+       }
+       
+       #Ndau{
+           margin-left: 56%;
+           margin-top: -7%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;    
+       }
+       #profiles{
+           margin-left: 70%;
+           margin-top: -5%;
+           gap: 5%; 
+           color: rgb(7, 38, 66); 
+           font-size: 20px;      
+           }
+           #call{
+            margin-top: 25%; 
+            margin-left: 60%; 
+            background-color: rgb(241, 189, 18); 
+            border-radius: 12px;
+            padding: 10px 20px;
+            font-size: medium;
+           }
+        #amplifyer{
+           margin-left: 56%;
+           margin-top: -18%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;   
+        }  
+        #free{
+           margin-left: 64%;
+           margin-top: -5%; 
+           font-size: 15px;
+           color: aliceblue;  
+        } 
+        #vida{
+           margin-left: 60%;
+           margin-top: 6%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%; 
+        }
+        #five{
+           margin-left: 60%;
+           margin-top: -1%;  
+           font-size: 100px; 
+           font-weight: bolder;
+           color: #fafefe;
+        }
+        #records{
+           margin-left: 64%;
+           margin-top: -10%;  
+           font-size: 20px; 
+           /* font-weight: bolder; */
+           color: #fafefe;   
+        }
+       
+
+}
+
+@media screen and (min-width:551px) and (max-width:770px) {
+    body{
+        background-color: #A4B5C4; 
+        
+       }
+       .title{
+        font-size: xx-large; 
+       margin-top: 10%;
+       margin-left: 10%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #wave{
+           margin-top: -10%; 
+           margin-left: 6%;  
+          }
+       
+       .intro{
+        /* margin-top: 30%;  */
+        margin-left: -14%;  
+        color: white;
+       }
+       #quinte{
+           margin-top:-5%; 
+           margin-left: 10%;  
+           color: rgb(230, 20, 20);  
+           font-size: 60px; 
+           /* font-weight: bolder; */
+       }
+       #slogan{
+       font-size: 40px; 
+       margin-left: 10%;
+       color: rgb(36, 133, 133);
+       font-weight: bolder;  
+       margin-top: -4%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #soon{
+        font-weight: bolder;   
+        font-size: 70px;
+        margin-top: 6%;
+        margin-left: 10%;
+       }
+       
+       #show{
+        margin-left: 10%;   
+       }
+       #Kur{
+        margin-left: 62%;
+        margin-top: -30%;
+         border-radius: 160px;
+        width: 120px;
+        height: 120px;
+        display: grid;
+        gap: 5%; 
+       
+       }
+       
+       #Ndau{
+           margin-left: 56%;
+           margin-top: -7%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;    
+       }
+       #profiles{
+           margin-left: 70%;
+           margin-top: -5%;
+           gap: 5%; 
+           color: rgb(7, 38, 66); 
+           font-size: 20px;      
+           }
+           #call{
+            margin-top: 25%; 
+            margin-left: 60%; 
+            background-color: rgb(241, 189, 18); 
+            border-radius: 12px;
+            padding: 10px 20px;
+            font-size: medium;
+           }
+        #amplifyer{
+           margin-left: 56%;
+           margin-top: -18%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;   
+        }  
+        #free{
+           margin-left: 64%;
+           margin-top: -5%; 
+           font-size: 15px;
+           color: aliceblue;  
+        } 
+        #vida{
+           margin-left: 60%;
+           margin-top: 6%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%; 
+        }
+        #five{
+           margin-left: 60%;
+           margin-top: -1%;  
+           font-size: 100px; 
+           font-weight: bolder;
+           color: #fafefe;
+        }
+        #records{
+           margin-left: 64%;
+           margin-top: -10%;  
+           font-size: 20px; 
+           /* font-weight: bolder; */
+           color: #fafefe;   
+        }
+       
+
+}
+
+@media screen and (min-width: 771px) and (max-width: 910px) {
+    body{
+        background-color: #A4B5C4; 
+        
+       }
+       .title{
+        font-size: xx-large; 
+       margin-top: 10%;
+       margin-left: 10%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #wave{
+           margin-top: -10%; 
+           margin-left: 6%;  
+          }
+       
+       .intro{
+        /* margin-top: 30%;  */
+        margin-left: -14%;  
+        color: white;
+       }
+       #quinte{
+           margin-top:-5%; 
+           margin-left: 10%;  
+           color: rgb(230, 20, 20);  
+           font-size: 60px; 
+           /* font-weight: bolder; */
+       }
+       #slogan{
+       font-size: 40px; 
+       margin-left: 10%;
+       color: rgb(36, 133, 133);
+       font-weight: bolder;  
+       margin-top: -4%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #soon{
+        font-weight: bolder;   
+        font-size: 70px;
+        margin-top: 6%;
+        margin-left: 10%;
+       }
+       
+       #show{
+        margin-left: 10%;   
+       }
+       #Kur{
+        margin-left: 62%;
+        margin-top: -30%;
+         border-radius: 160px;
+        width: 120px;
+        height: 120px;
+        display: grid;
+        gap: 5%; 
+       
+       }
+       
+       #Ndau{
+           margin-left: 56%;
+           margin-top: -7%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;    
+       }
+       #profiles{
+           margin-left: 70%;
+           margin-top: -5%;
+           gap: 5%; 
+           color: rgb(7, 38, 66); 
+           font-size: 20px;      
+           }
+           #call{
+            margin-top: 25%; 
+            margin-left: 60%; 
+            background-color: rgb(241, 189, 18); 
+            border-radius: 12px;
+            padding: 10px 20px;
+            font-size: medium;
+           }
+        #amplifyer{
+           margin-left: 56%;
+           margin-top: -18%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;   
+        }  
+        #free{
+           margin-left: 64%;
+           margin-top: -5%; 
+           font-size: 15px;
+           color: aliceblue;  
+        } 
+        #vida{
+           margin-left: 60%;
+           margin-top: 6%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%; 
+        }
+        #five{
+           margin-left: 60%;
+           margin-top: -1%;  
+           font-size: 100px; 
+           font-weight: bolder;
+           color: #fafefe;
+        }
+        #records{
+           margin-left: 64%;
+           margin-top: -10%;  
+           font-size: 20px; 
+           /* font-weight: bolder; */
+           color: #fafefe;   
+        }
+       
+
+}
+
+@media screen and (min-width: 911px) and (max-width: 1000px) {
+    body{
+        background-color: #A4B5C4; 
+        
+       }
+       .title{
+        font-size: xx-large; 
+       margin-top: 10%;
+       margin-left: 10%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #wave{
+           margin-top: -10%; 
+           margin-left: 6%;  
+          }
+       
+       .intro{
+        /* margin-top: 30%;  */
+        margin-left: -14%;  
+        color: white;
+       }
+       #quinte{
+           margin-top:-5%; 
+           margin-left: 10%;  
+           color: rgb(230, 20, 20);  
+           font-size: 60px; 
+           /* font-weight: bolder; */
+       }
+       #slogan{
+       font-size: 40px; 
+       margin-left: 10%;
+       color: rgb(36, 133, 133);
+       font-weight: bolder;  
+       margin-top: -4%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #soon{
+        font-weight: bolder;   
+        font-size: 70px;
+        margin-top: 6%;
+        margin-left: 10%;
+       }
+       
+       #show{
+        margin-left: 10%;   
+       }
+       #Kur{
+        margin-left: 62%;
+        margin-top: -30%;
+         border-radius: 160px;
+        width: 120px;
+        height: 120px;
+        display: grid;
+        gap: 5%; 
+       
+       }
+       
+       #Ndau{
+           margin-left: 56%;
+           margin-top: -7%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;    
+       }
+       #profiles{
+           margin-left: 70%;
+           margin-top: -5%;
+           gap: 5%; 
+           color: rgb(7, 38, 66); 
+           font-size: 20px;      
+           }
+           #call{
+            margin-top: 25%; 
+            margin-left: 60%; 
+            background-color: rgb(241, 189, 18); 
+            border-radius: 12px;
+            padding: 10px 20px;
+            font-size: medium;
+           }
+        #amplifyer{
+           margin-left: 56%;
+           margin-top: -18%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;   
+        }  
+        #free{
+           margin-left: 64%;
+           margin-top: -5%; 
+           font-size: 15px;
+           color: aliceblue;  
+        } 
+        #vida{
+           margin-left: 60%;
+           margin-top: 6%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%; 
+        }
+        #five{
+           margin-left: 60%;
+           margin-top: -1%;  
+           font-size: 100px; 
+           font-weight: bolder;
+           color: #fafefe;
+        }
+        #records{
+           margin-left: 64%;
+           margin-top: -10%;  
+           font-size: 20px; 
+           /* font-weight: bolder; */
+           color: #fafefe;   
+        }
+       
+
+}
+
+@media screen and (min-width: 1000px) and (max-width:1050px){
+    body{
+        background-color: #A4B5C4; 
+        
+       }
+       .title{
+        font-size: xx-large; 
+       margin-top: 10%;
+       margin-left: 10%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #wave{
+           margin-top: -10%; 
+           margin-left: 6%;  
+          }
+       
+       .intro{
+        /* margin-top: 30%;  */
+        margin-left: -14%;  
+        color: white;
+       }
+       #quinte{
+           margin-top:-5%; 
+           margin-left: 10%;  
+           color: rgb(230, 20, 20);  
+           font-size: 60px; 
+           /* font-weight: bolder; */
+       }
+       #slogan{
+       font-size: 40px; 
+       margin-left: 10%;
+       color: rgb(36, 133, 133);
+       font-weight: bolder;  
+       margin-top: -4%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #soon{
+        font-weight: bolder;   
+        font-size: 70px;
+        margin-top: 6%;
+        margin-left: 10%;
+       }
+       
+       #show{
+        margin-left: 10%;   
+       }
+       #Kur{
+        margin-left: 62%;
+        margin-top: -30%;
+         border-radius: 160px;
+        width: 120px;
+        height: 120px;
+        display: grid;
+        gap: 5%; 
+       
+       }
+       
+       #Ndau{
+           margin-left: 56%;
+           margin-top: -7%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;    
+       }
+       #profiles{
+           margin-left: 70%;
+           margin-top: -5%;
+           gap: 5%; 
+           color: rgb(7, 38, 66); 
+           font-size: 20px;      
+           }
+           #call{
+            margin-top: 25%; 
+            margin-left: 60%; 
+            background-color: rgb(241, 189, 18); 
+            border-radius: 12px;
+            padding: 10px 20px;
+            font-size: medium;
+           }
+        #amplifyer{
+           margin-left: 56%;
+           margin-top: -18%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;   
+        }  
+        #free{
+           margin-left: 64%;
+           margin-top: -5%; 
+           font-size: 15px;
+           color: aliceblue;  
+        } 
+        #vida{
+           margin-left: 60%;
+           margin-top: 6%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%; 
+        }
+        #five{
+           margin-left: 60%;
+           margin-top: -1%;  
+           font-size: 100px; 
+           font-weight: bolder;
+           color: #fafefe;
+        }
+        #records{
+           margin-left: 64%;
+           margin-top: -10%;  
+           font-size: 20px; 
+           /* font-weight: bolder; */
+           color: #fafefe;   
+        }
+       
+
+}
+
+@media screen and (min-width: 1050px) and (max-width:1300px){
+    body{
+        background-color: #A4B5C4; 
+        
+       }
+       .title{
+        font-size: xx-large; 
+       margin-top: 10%;
+       margin-left: 10%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #wave{
+           margin-top: -10%; 
+           margin-left: 6%;  
+          }
+       
+       .intro{
+        /* margin-top: 30%;  */
+        margin-left: -14%;  
+        color: white;
+       }
+       #quinte{
+           margin-top:-5%; 
+           margin-left: 10%;  
+           color: rgb(230, 20, 20);  
+           font-size: 60px; 
+           /* font-weight: bolder; */
+       }
+       #slogan{
+       font-size: 40px; 
+       margin-left: 10%;
+       color: rgb(36, 133, 133);
+       font-weight: bolder;  
+       margin-top: -4%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #soon{
+        font-weight: bolder;   
+        font-size: 70px;
+        margin-top: 6%;
+        margin-left: 10%;
+       }
+       
+       #show{
+        margin-left: 10%;   
+       }
+       #Kur{
+        margin-left: 62%;
+        margin-top: -30%;
+         border-radius: 160px;
+        width: 120px;
+        height: 120px;
+        display: grid;
+        gap: 5%; 
+       
+       }
+       
+       #Ndau{
+           margin-left: 56%;
+           margin-top: -7%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;    
+       }
+       #profiles{
+           margin-left: 70%;
+           margin-top: -5%;
+           gap: 5%; 
+           color: rgb(7, 38, 66); 
+           font-size: 20px;      
+           }
+           #call{
+            margin-top: 25%; 
+            margin-left: 60%; 
+            background-color: rgb(241, 189, 18); 
+            border-radius: 12px;
+            padding: 10px 20px;
+            font-size: medium;
+           }
+        #amplifyer{
+           margin-left: 56%;
+           margin-top: -18%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;   
+        }  
+        #free{
+           margin-left: 64%;
+           margin-top: -5%; 
+           font-size: 15px;
+           color: aliceblue;  
+        } 
+        #vida{
+           margin-left: 60%;
+           margin-top: 6%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%; 
+        }
+        #five{
+           margin-left: 60%;
+           margin-top: -1%;  
+           font-size: 100px; 
+           font-weight: bolder;
+           color: #fafefe;
+        }
+        #records{
+           margin-left: 64%;
+           margin-top: -10%;  
+           font-size: 20px; 
+           /* font-weight: bolder; */
+           color: #fafefe;   
+        }
+       
+
+}
+
+@media screen and (min-width: 280px) and (max-width: 319px) {
+    body{
+        background-color: #A4B5C4; 
+        
+       }
+       .title{
+        font-size: xx-large; 
+       margin-top: 10%;
+       margin-left: 10%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #wave{
+           margin-top: -10%; 
+           margin-left: 6%;  
+          }
+       
+       .intro{
+        /* margin-top: 30%;  */
+        margin-left: -14%;  
+        color: white;
+       }
+       #quinte{
+           margin-top:-5%; 
+           margin-left: 10%;  
+           color: rgb(230, 20, 20);  
+           font-size: 60px; 
+           /* font-weight: bolder; */
+       }
+       #slogan{
+       font-size: 40px; 
+       margin-left: 10%;
+       color: rgb(36, 133, 133);
+       font-weight: bolder;  
+       margin-top: -4%;
+       font-family: 'Times New Roman', Times, serif;
+       }
+       #soon{
+        font-weight: bolder;   
+        font-size: 70px;
+        margin-top: 6%;
+        margin-left: 10%;
+       }
+       
+       #show{
+        margin-left: 10%;   
+       }
+       #Kur{
+        margin-left: 62%;
+        margin-top: -30%;
+         border-radius: 160px;
+        width: 120px;
+        height: 120px;
+        display: grid;
+        gap: 5%; 
+       
+       }
+       
+       #Ndau{
+           margin-left: 56%;
+           margin-top: -7%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;    
+       }
+       #profiles{
+           margin-left: 70%;
+           margin-top: -5%;
+           gap: 5%; 
+           color: rgb(7, 38, 66); 
+           font-size: 20px;      
+           }
+           #call{
+            margin-top: 25%; 
+            margin-left: 60%; 
+            background-color: rgb(241, 189, 18); 
+            border-radius: 12px;
+            padding: 10px 20px;
+            font-size: medium;
+           }
+        #amplifyer{
+           margin-left: 56%;
+           margin-top: -18%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%;   
+        }  
+        #free{
+           margin-left: 64%;
+           margin-top: -5%; 
+           font-size: 15px;
+           color: aliceblue;  
+        } 
+        #vida{
+           margin-left: 60%;
+           margin-top: 6%;
+            border-radius: 160px;
+           width: 120px;
+           height: 120px;
+           display: grid;
+           gap: 5%; 
+        }
+        #five{
+           margin-left: 60%;
+           margin-top: -1%;  
+           font-size: 100px; 
+           font-weight: bolder;
+           color: #fafefe;
+        }
+        #records{
+           margin-left: 64%;
+           margin-top: -10%;  
+           font-size: 20px; 
+           /* font-weight: bolder; */
+           color: #fafefe;   
+        }
+       
+
+}
+
+
+
