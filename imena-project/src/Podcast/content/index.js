@@ -1,43 +1,62 @@
-import  './index.css';
- import mama from  './mama.jpg'
- import waves from './waves.png';
- import Achan from './Achan.png';
- import Linet from './Linet.png';
- import headphones from './headphones.jpg'
- import pod3 from './pod3.jpg'
 
-const Content =() => {
+import './index.css';
+import React, { useState, useEffect } from 'react';
+function Content() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 1024);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+
     return(
-        <div className='title'>
-    
-      
-      
-        <div className='intro'>
-        <p id='quinte' >Quintessential Podcast</p>
-        <br></br>
-        <img id='wave' src={waves} /> 
-        <p id='slogan'>Listen as we bring you <br/>Unleashing insights,</p>
-          <p id='show'>The most interactive show</p>
-          <p id='soon'>Coming Soon!</p>
-          
+      <div className={isMenuOpen ? 'menu-open' : ''}>
+      <header>
+        <div className="logo">
+          <img src="/images/multimedia.png"/>
         </div>
+        {isMobile && (
+          <div className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        )}
+        {(!isMobile || isMenuOpen) && (
+          <nav className={isMenuOpen ? 'open' : ''}>
+            <ul>
+              <li><a href="#" >Home</a></li>
+              <li><a href="#">Videos</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#"className='active'>Podcast</a></li>
+              <li><a href="#">Portfolio</a></li>
+            </ul>
+          </nav>
+        )}
+      </header>
+        <div className='title'>
+        <br></br>
+        <div className='pictures'>
+       <img id='podmic'  src ='./images/podmicr.png'alt='p'></img>
        
-        <img id='Kur' src={Achan} /> 
-        <img id='Ndau'src={Linet}/>
-        <p id='profiles'>NEW GUESTS </p>
-        <img id='amplifyer' src={headphones} /> 
-        <p id='free'>Join for free</p>
+       <img  id='mama' src ='./images/mama.jpg'alt='m'></img>
+       </div>
+        <p id='slogan'>Listen as we bring you <br/>Unleashing insights,</p>
+          <p id='show'>Coming Soon!</p>
+          <p id='quinte' >Quintessential <br/>
+         Podcast</p>
+          
+          
           <button id='call'>20th August</button>
-          <img id='vida'src={pod3}/>
-          <p id='five'>5 </p>
-          <p id='records'>Recorded podcasts</p>
-
-        
-        
-       
-       
-       
          
+        </div>
         </div>
         
 

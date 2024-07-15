@@ -1,1354 +1,1073 @@
-body{
- background-color: #A4B5C4; 
- 
-}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #092D4C;
+    position: relative;
+    z-index: 1000;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .logo img {
+    height: 50px;
+    width: 89px;
+  }
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -20%;
+    gap: 100px;
+  }
+  nav ul li {
+    padding-right: 74px;
+    font-size: 27px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  nav ul li a.active {
+    color: #FFA500;
+  }
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  .hamburger.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  .hamburger.open span:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+  }
+
 .title{
- font-size: xx-large; 
-margin-top: 10%;
-margin-left: 10%;
-font-family: 'Times New Roman', Times, serif;
+ margin-top: -0.5%;   
 }
-#wave{
-    margin-top: -10%; 
-    margin-left: 6%;  
-   }
-
-.intro{
- /* margin-top: 30%;  */
- margin-left: -14%;  
- color: white;
-}
-#quinte{
-    margin-top:-5%; 
-    margin-left: 10%;  
-    color: rgb(230, 20, 20);  
-    font-size: 60px; 
-    /* font-weight: bolder; */
-}
-#slogan{
-font-size: 40px; 
-margin-left: 10%;
-color: rgb(36, 133, 133);
-font-weight: bolder;  
-margin-top: -4%;
-font-family: 'Times New Roman', Times, serif;
-}
-#soon{
- font-weight: bolder;   
- font-size: 70px;
- margin-top: 6%;
- margin-left: 10%;
-}
-
-#show{
- margin-left: 10%;   
-}
-#Kur{
- margin-left: 62%;
- margin-top: -30%;
-  border-radius: 160px;
- width: 120px;
- height: 120px;
- display: grid;
- gap: 5%; 
-
-}
-
-#Ndau{
-    margin-left: 56%;
-    margin-top: -7%;
-     border-radius: 160px;
-    width: 120px;
-    height: 120px;
-    display: grid;
-    gap: 5%;    
-}
-#profiles{
-    margin-left: 70%;
-    margin-top: -5%;
-    gap: 5%; 
-    color: rgb(7, 38, 66); 
-    font-size: 20px;      
-    }
-    #call{
-     margin-top: 25%; 
-     margin-left: 60%; 
+     
+     #call{
+     margin-top: 30%; 
+     margin-left: 70%; 
      background-color: rgb(241, 189, 18); 
      border-radius: 12px;
      padding: 10px 20px;
      font-size: medium;
+    } 
+
+.pictures{
+ display: flex;
+ margin-left: 50%; 
+ margin-left: 40%; 
+ font-family: 'Times New Roman', Times, serif;
+
+}
+#quinte{
+    margin-top: -45%; 
+    margin-left: 25%;  
+    color: aliceblue;
+    font-size: 60px;
+   }
+#podmic{
+ width: 910px;  
+ height: 960px; 
+ margin-left: -10%;
+
+ margin-left: -66%;
+}
+#mama{
+    width: 910px;  
+    height: 960px;   
+    margin-left: 1%;
+    
+}
+#slogan{
+ margin-top: -20%;
+ margin-left: 10%;
+ color: #1BEFFC; 
+ font-size: 50px;  
+}
+#show{
+     margin-top: -0.2%; 
+    margin-left: 10%;
+    color: #ed9716; 
+    font-size: 50px;    
+}
+
+ @media screen and (min-width: 344px) and (max-width: 667px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        background-color: #092D4C;
+        position: relative;
+        z-index: 1000;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      .logo img {
+        height: 50px;
+        width: 89px;
+      }
+      nav ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-left: -20%;
+        gap: 100px;
+      }
+      nav ul li {
+        padding-right: 74px;
+        font-size: 27px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      nav ul li a.active {
+        color: #FFA500;
+      }
+      .hamburger {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        z-index: 1000;
+      }
+      .hamburger span {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin-bottom: 5px;
+        transition: all 0.3s ease-in-out;
+      }
+      .hamburger.open span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+      .hamburger.open span:nth-child(2) {
+        opacity: 0;
+      }
+      .hamburger.open span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+      }
+    
+    .title{
+        margin-top: -0.5%;   
+       }
+            
+            #call{
+            margin-top: 30%; 
+            margin-left: 70%; 
+            background-color: rgb(241, 189, 18); 
+            border-radius: 12px;
+            padding: 10px 20px;
+            font-size: medium;
+           } 
+       
+       .pictures{
+        flex-wrap: wrap;
+        margin-left: 50%; 
+        margin-left: 40%;  
+         font-family: 'Times New Roman', Times, serif;
+       
+       }
+       #quinte{
+           margin-top: -45%; 
+           margin-left: 25%;  
+           color: aliceblue;
+           font-size: 60px;
+          }
+       #podmic{
+        width: 210px;  
+        height: 260px; 
+        margin-left: -10%;
+       
+        margin-left: -66%;
+       }
+       #mama{
+           width: 210px;  
+           height: 260px;   
+           margin-left: 1%;
+           
+       }
+       #slogan{
+        margin-top: -20%;
+        margin-left: 10%;
+        color: #1BEFFC; 
+        font-size: 50px;  
+       }
+       #show{
+            margin-top: -0.2%; 
+           margin-left: 10%;
+           color: #f8fcfc; 
+           font-size: 50px;    
+       }
+
     }
- #amplifyer{
-    margin-left: 56%;
-    margin-top: -18%;
-     border-radius: 160px;
-    width: 120px;
-    height: 120px;
-    display: grid;
-    gap: 5%;   
- }  
- #free{
-    margin-left: 64%;
-    margin-top: -5%; 
-    font-size: 15px;
-    color: aliceblue;  
- } 
- #vida{
-    margin-left: 60%;
-    margin-top: 6%;
-     border-radius: 160px;
-    width: 120px;
-    height: 120px;
-    display: grid;
-    gap: 5%; 
- }
- #five{
-    margin-left: 60%;
-    margin-top: -1%;  
-    font-size: 100px; 
-    font-weight: bolder;
-    color: #fafefe;
- }
- #records{
-    margin-left: 64%;
-    margin-top: -10%;  
-    font-size: 20px; 
-    /* font-weight: bolder; */
-    color: #fafefe;   
- }
 
-
-
-
-@media screen and (min-width: 320px) and (max-width: 390px) {
-    body{
-        background-color: #A4B5C4; 
-        
-       }
-       .title{
-        font-size: xx-large; 
-       margin-top: 10%;
-       margin-left: 10%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #wave{
-           margin-top: -10%; 
-           margin-left: 6%;  
-          }
-       
-       .intro{
-        /* margin-top: 30%;  */
-        margin-left: -14%;  
-        color: white;
-       }
-       #quinte{
-           margin-top:-5%; 
-           margin-left: 10%;  
-           color: rgb(230, 20, 20);  
-           font-size: 60px; 
-           /* font-weight: bolder; */
-       }
-       #slogan{
-       font-size: 40px; 
-       margin-left: 10%;
-       color: rgb(36, 133, 133);
-       font-weight: bolder;  
-       margin-top: -4%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #soon{
-        font-weight: bolder;   
-        font-size: 70px;
-        margin-top: 6%;
-        margin-left: 10%;
-       }
-       
-       #show{
-        margin-left: 10%;   
-       }
-       #Kur{
-        margin-left: 62%;
-        margin-top: -30%;
-         border-radius: 160px;
-        width: 120px;
-        height: 120px;
-        display: grid;
-        gap: 5%; 
-       
-       }
-       
-       #Ndau{
-           margin-left: 56%;
-           margin-top: -7%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;    
-       }
-       #profiles{
-           margin-left: 70%;
-           margin-top: -5%;
-           gap: 5%; 
-           color: rgb(7, 38, 66); 
-           font-size: 20px;      
-           }
-           #call{
-            margin-top: 25%; 
-            margin-left: 60%; 
-            background-color: rgb(241, 189, 18); 
-            border-radius: 12px;
-            padding: 10px 20px;
-            font-size: medium;
-           }
-        #amplifyer{
-           margin-left: 56%;
-           margin-top: -18%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;   
-        }  
-        #free{
-           margin-left: 64%;
-           margin-top: -5%; 
-           font-size: 15px;
-           color: aliceblue;  
-        } 
-        #vida{
-           margin-left: 60%;
-           margin-top: 6%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%; 
-        }
-        #five{
-           margin-left: 60%;
-           margin-top: -1%;  
-           font-size: 100px; 
-           font-weight: bolder;
-           color: #fafefe;
-        }
-        #records{
-           margin-left: 64%;
-           margin-top: -10%;  
-           font-size: 20px; 
-           /* font-weight: bolder; */
-           color: #fafefe;   
-        }
-       
-
-}
-
-@media screen and (min-width: 391px) and (max-width: 399px) {
-    body{
-        background-color: #A4B5C4; 
-        
-       }
-       .title{
-        font-size: xx-large; 
-       margin-top: 10%;
-       margin-left: 10%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #wave{
-           margin-top: -10%; 
-           margin-left: 6%;  
-          }
-       
-       .intro{
-        /* margin-top: 30%;  */
-        margin-left: -14%;  
-        color: white;
-       }
-       #quinte{
-           margin-top:-5%; 
-           margin-left: 10%;  
-           color: rgb(230, 20, 20);  
-           font-size: 60px; 
-           /* font-weight: bolder; */
-       }
-       #slogan{
-       font-size: 40px; 
-       margin-left: 10%;
-       color: rgb(36, 133, 133);
-       font-weight: bolder;  
-       margin-top: -4%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #soon{
-        font-weight: bolder;   
-        font-size: 70px;
-        margin-top: 6%;
-        margin-left: 10%;
-       }
-       
-       #show{
-        margin-left: 10%;   
-       }
-       #Kur{
-        margin-left: 62%;
-        margin-top: -30%;
-         border-radius: 160px;
-        width: 120px;
-        height: 120px;
-        display: grid;
-        gap: 5%; 
-       
-       }
-       
-       #Ndau{
-           margin-left: 56%;
-           margin-top: -7%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;    
-       }
-       #profiles{
-           margin-left: 70%;
-           margin-top: -5%;
-           gap: 5%; 
-           color: rgb(7, 38, 66); 
-           font-size: 20px;      
-           }
-           #call{
-            margin-top: 25%; 
-            margin-left: 60%; 
-            background-color: rgb(241, 189, 18); 
-            border-radius: 12px;
-            padding: 10px 20px;
-            font-size: medium;
-           }
-        #amplifyer{
-           margin-left: 56%;
-           margin-top: -18%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;   
-        }  
-        #free{
-           margin-left: 64%;
-           margin-top: -5%; 
-           font-size: 15px;
-           color: aliceblue;  
-        } 
-        #vida{
-           margin-left: 60%;
-           margin-top: 6%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%; 
-        }
-        #five{
-           margin-left: 60%;
-           margin-top: -1%;  
-           font-size: 100px; 
-           font-weight: bolder;
-           color: #fafefe;
-        }
-        #records{
-           margin-left: 64%;
-           margin-top: -10%;  
-           font-size: 20px; 
-           /* font-weight: bolder; */
-           color: #fafefe;   
-        }
-       
-
-}
-
-@media screen and (min-width: 400px) and (max-width: 480px) {
-    body{
-        background-color: #A4B5C4; 
-        
-       }
-       .title{
-        font-size: xx-large; 
-       margin-top: 10%;
-       margin-left: 10%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #wave{
-           margin-top: -10%; 
-           margin-left: 6%;  
-          }
-       
-       .intro{
-        /* margin-top: 30%;  */
-        margin-left: -14%;  
-        color: white;
-       }
-       #quinte{
-           margin-top:-5%; 
-           margin-left: 10%;  
-           color: rgb(230, 20, 20);  
-           font-size: 60px; 
-           /* font-weight: bolder; */
-       }
-       #slogan{
-       font-size: 40px; 
-       margin-left: 10%;
-       color: rgb(36, 133, 133);
-       font-weight: bolder;  
-       margin-top: -4%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #soon{
-        font-weight: bolder;   
-        font-size: 70px;
-        margin-top: 6%;
-        margin-left: 10%;
-       }
-       
-       #show{
-        margin-left: 10%;   
-       }
-       #Kur{
-        margin-left: 62%;
-        margin-top: -30%;
-         border-radius: 160px;
-        width: 120px;
-        height: 120px;
-        display: grid;
-        gap: 5%; 
-       
-       }
-       
-       #Ndau{
-           margin-left: 56%;
-           margin-top: -7%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;    
-       }
-       #profiles{
-           margin-left: 70%;
-           margin-top: -5%;
-           gap: 5%; 
-           color: rgb(7, 38, 66); 
-           font-size: 20px;      
-           }
-           #call{
-            margin-top: 25%; 
-            margin-left: 60%; 
-            background-color: rgb(241, 189, 18); 
-            border-radius: 12px;
-            padding: 10px 20px;
-            font-size: medium;
-           }
-        #amplifyer{
-           margin-left: 56%;
-           margin-top: -18%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;   
-        }  
-        #free{
-           margin-left: 64%;
-           margin-top: -5%; 
-           font-size: 15px;
-           color: aliceblue;  
-        } 
-        #vida{
-           margin-left: 60%;
-           margin-top: 6%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%; 
-        }
-        #five{
-           margin-left: 60%;
-           margin-top: -1%;  
-           font-size: 100px; 
-           font-weight: bolder;
-           color: #fafefe;
-        }
-        #records{
-           margin-left: 64%;
-           margin-top: -10%;  
-           font-size: 20px; 
-           /* font-weight: bolder; */
-           color: #fafefe;   
-        }
-       
-
-}
 
 @media screen and (min-width: 480px) and (max-width: 550px) {
-    body{
-        background-color: #A4B5C4; 
-        
-       }
-       .title{
-        font-size: xx-large; 
-       margin-top: 10%;
-       margin-left: 10%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #wave{
-           margin-top: -10%; 
-           margin-left: 6%;  
-          }
-       
-       .intro{
-        /* margin-top: 30%;  */
-        margin-left: -14%;  
-        color: white;
-       }
-       #quinte{
-           margin-top:-5%; 
-           margin-left: 10%;  
-           color: rgb(230, 20, 20);  
-           font-size: 60px; 
-           /* font-weight: bolder; */
-       }
-       #slogan{
-       font-size: 40px; 
-       margin-left: 10%;
-       color: rgb(36, 133, 133);
-       font-weight: bolder;  
-       margin-top: -4%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #soon{
-        font-weight: bolder;   
-        font-size: 70px;
-        margin-top: 6%;
-        margin-left: 10%;
-       }
-       
-       #show{
-        margin-left: 10%;   
-       }
-       #Kur{
-        margin-left: 62%;
-        margin-top: -30%;
-         border-radius: 160px;
-        width: 120px;
-        height: 120px;
-        display: grid;
-        gap: 5%; 
-       
-       }
-       
-       #Ndau{
-           margin-left: 56%;
-           margin-top: -7%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;    
-       }
-       #profiles{
-           margin-left: 70%;
-           margin-top: -5%;
-           gap: 5%; 
-           color: rgb(7, 38, 66); 
-           font-size: 20px;      
-           }
-           #call{
-            margin-top: 25%; 
-            margin-left: 60%; 
-            background-color: rgb(241, 189, 18); 
-            border-radius: 12px;
-            padding: 10px 20px;
-            font-size: medium;
-           }
-        #amplifyer{
-           margin-left: 56%;
-           margin-top: -18%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;   
-        }  
-        #free{
-           margin-left: 64%;
-           margin-top: -5%; 
-           font-size: 15px;
-           color: aliceblue;  
-        } 
-        #vida{
-           margin-left: 60%;
-           margin-top: 6%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%; 
-        }
-        #five{
-           margin-left: 60%;
-           margin-top: -1%;  
-           font-size: 100px; 
-           font-weight: bolder;
-           color: #fafefe;
-        }
-        #records{
-           margin-left: 64%;
-           margin-top: -10%;  
-           font-size: 20px; 
-           /* font-weight: bolder; */
-           color: #fafefe;   
-        }
-       
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #092D4C;
+    position: relative;
+    z-index: 1000;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .logo img {
+    height: 50px;
+    width: 89px;
+  }
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -20%;
+    gap: 100px;
+  }
+  nav ul li {
+    padding-right: 74px;
+    font-size: 27px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  nav ul li a.active {
+    color: #FFA500;
+  }
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  .hamburger.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  .hamburger.open span:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+  }
+
+.title{
+ margin-top: -0.5%;   
+}
+     
+     #call{
+     margin-top: 30%; 
+     margin-left: 70%; 
+     background-color: rgb(241, 189, 18); 
+     border-radius: 12px;
+     padding: 10px 20px;
+     font-size: medium;
+    } 
+
+.pictures{
+ display: flex;
+ margin-left: 50%; 
+ margin-left: 40%; 
+ font-family: 'Times New Roman', Times, serif;
 
 }
+#quinte{
+    margin-top: -45%; 
+    margin-left: 25%;  
+    color: aliceblue;
+    font-size: 60px;
+   }
+#podmic{
+ width: 910px;  
+ height: 960px; 
+ margin-left: -10%;
 
-@media screen and (min-width:551px) and (max-width:770px) {
-    body{
-        background-color: #A4B5C4; 
-        
-       }
-       .title{
-        font-size: xx-large; 
-       margin-top: 10%;
-       margin-left: 10%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #wave{
-           margin-top: -10%; 
-           margin-left: 6%;  
-          }
-       
-       .intro{
-        /* margin-top: 30%;  */
-        margin-left: -14%;  
+ margin-left: -66%;
+}
+#mama{
+    width: 910px;  
+    height: 960px;   
+    margin-left: 1%;
+    
+}
+#slogan{
+ margin-top: -20%;
+ margin-left: 10%;
+ color: #1BEFFC; 
+ font-size: 50px;  
+}
+#show{
+     margin-top: -0.2%; 
+    margin-left: 10%;
+    color: #f8fcfc; 
+    font-size: 50px;    
+}
+    
+}
+
+ @media screen and (min-width:551px) and (max-width:770px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        background-color: #092D4C;
+        position: relative;
+        z-index: 1000;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      .logo img {
+        height: 50px;
+        width: 89px;
+      }
+      nav ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-left: -20%;
+        gap: 100px;
+      }
+      nav ul li {
+        padding-right: 74px;
+        font-size: 27px;
+      }
+      nav ul li a {
         color: white;
+        text-decoration: none;
+      }
+      nav ul li a.active {
+        color: #FFA500;
+      }
+      .hamburger {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        z-index: 1000;
+      }
+      .hamburger span {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin-bottom: 5px;
+        transition: all 0.3s ease-in-out;
+      }
+      .hamburger.open span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+      .hamburger.open span:nth-child(2) {
+        opacity: 0;
+      }
+      .hamburger.open span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+      }
+    
+    .title{
+        /* margin-top: -0.5%;    */
        }
-       #quinte{
-           margin-top:-5%; 
-           margin-left: 10%;  
-           color: rgb(230, 20, 20);  
-           font-size: 60px; 
-           /* font-weight: bolder; */
-       }
-       #slogan{
-       font-size: 40px; 
-       margin-left: 10%;
-       color: rgb(36, 133, 133);
-       font-weight: bolder;  
-       margin-top: -4%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #soon{
-        font-weight: bolder;   
-        font-size: 70px;
-        margin-top: 6%;
-        margin-left: 10%;
-       }
-       
-       #show{
-        margin-left: 10%;   
-       }
-       #Kur{
-        margin-left: 62%;
-        margin-top: -30%;
-         border-radius: 160px;
-        width: 120px;
-        height: 120px;
-        display: grid;
-        gap: 5%; 
-       
-       }
-       
-       #Ndau{
-           margin-left: 56%;
-           margin-top: -7%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;    
-       }
-       #profiles{
-           margin-left: 70%;
-           margin-top: -5%;
-           gap: 5%; 
-           color: rgb(7, 38, 66); 
-           font-size: 20px;      
-           }
-           #call{
-            margin-top: 25%; 
-            margin-left: 60%; 
-            background-color: rgb(241, 189, 18); 
+            
+            #call{
+            margin-top: 30%; 
+            margin-left: 70%; 
+            background-color: rgb(252, 130, 43); 
             border-radius: 12px;
             padding: 10px 20px;
             font-size: medium;
-           }
-        #amplifyer{
-           margin-left: 56%;
-           margin-top: -18%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;   
-        }  
-        #free{
-           margin-left: 64%;
-           margin-top: -5%; 
-           font-size: 15px;
-           color: aliceblue;  
-        } 
-        #vida{
-           margin-left: 60%;
-           margin-top: 6%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%; 
-        }
-        #five{
-           margin-left: 60%;
-           margin-top: -1%;  
-           font-size: 100px; 
-           font-weight: bolder;
-           color: #fafefe;
-        }
-        #records{
-           margin-left: 64%;
-           margin-top: -10%;  
-           font-size: 20px; 
-           /* font-weight: bolder; */
-           color: #fafefe;   
-        }
+           } 
        
+       .pictures{
+        flex-wrap: wrap;
+        margin-left: 40%; 
+        /* margin-left: 40%;  */
+         font-family: 'Times New Roman', Times, serif;
+       
+       }
+       #quinte{
+           margin-top: -160%; 
+           margin-left: 30%;  
+           color: aliceblue;
+           font-size: 60px;
+          }
+       #podmic{
+        width:810px;  
+        height: 660px; 
+        margin-left: -66%;
+       }
+       #mama{
+           width: 810px;  
+           height: 660px;   
+           margin-left: -90%;
+           margin-top: 2%;
+           
+       }
+       #slogan{
+        margin-top: -110%;
+        margin-left: 10%;
+        color: #1BEFFC; 
+        font-size: 30px;  
+       }
+       #show{
+            margin-top: -0.2%; 
+           margin-left: 10%;
+           color: #e3eb10; 
+           font-size: 50px;    
+       }
 
 }
 
 @media screen and (min-width: 771px) and (max-width: 910px) {
-    body{
-        background-color: #A4B5C4; 
-        
-       }
-       .title{
-        font-size: xx-large; 
-       margin-top: 10%;
-       margin-left: 10%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #wave{
-           margin-top: -10%; 
-           margin-left: 6%;  
-          }
-       
-       .intro{
-        /* margin-top: 30%;  */
-        margin-left: -14%;  
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        background-color: #092D4C;
+        position: relative;
+        z-index: 1000;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      .logo img {
+        height: 50px;
+        width: 89px;
+      }
+      nav ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-left: -20%;
+        gap: 100px;
+      }
+      nav ul li {
+        padding-right: 74px;
+        font-size: 27px;
+      }
+      nav ul li a {
         color: white;
+        text-decoration: none;
+      }
+      nav ul li a.active {
+        color: #FFA500;
+      }
+      .hamburger {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        z-index: 1000;
+      }
+      .hamburger span {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin-bottom: 5px;
+        transition: all 0.3s ease-in-out;
+      }
+      .hamburger.open span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+      .hamburger.open span:nth-child(2) {
+        opacity: 0;
+      }
+      .hamburger.open span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+      }
+    
+    .title{
+        margin-top: -0.5%;   
        }
-       #quinte{
-           margin-top:-5%; 
-           margin-left: 10%;  
-           color: rgb(230, 20, 20);  
-           font-size: 60px; 
-           /* font-weight: bolder; */
-       }
-       #slogan{
-       font-size: 40px; 
-       margin-left: 10%;
-       color: rgb(36, 133, 133);
-       font-weight: bolder;  
-       margin-top: -4%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #soon{
-        font-weight: bolder;   
-        font-size: 70px;
-        margin-top: 6%;
-        margin-left: 10%;
-       }
-       
-       #show{
-        margin-left: 10%;   
-       }
-       #Kur{
-        margin-left: 62%;
-        margin-top: -30%;
-         border-radius: 160px;
-        width: 120px;
-        height: 120px;
-        display: grid;
-        gap: 5%; 
-       
-       }
-       
-       #Ndau{
-           margin-left: 56%;
-           margin-top: -7%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;    
-       }
-       #profiles{
-           margin-left: 70%;
-           margin-top: -5%;
-           gap: 5%; 
-           color: rgb(7, 38, 66); 
-           font-size: 20px;      
-           }
-           #call{
-            margin-top: 25%; 
-            margin-left: 60%; 
-            background-color: rgb(241, 189, 18); 
+            
+            #call{
+            margin-top: 30%; 
+            margin-left: 70%; 
+            background-color: rgb(74, 138, 240); 
             border-radius: 12px;
             padding: 10px 20px;
             font-size: medium;
-           }
-        #amplifyer{
-           margin-left: 56%;
-           margin-top: -18%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;   
-        }  
-        #free{
-           margin-left: 64%;
-           margin-top: -5%; 
-           font-size: 15px;
-           color: aliceblue;  
-        } 
-        #vida{
-           margin-left: 60%;
-           margin-top: 6%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%; 
-        }
-        #five{
-           margin-left: 60%;
-           margin-top: -1%;  
-           font-size: 100px; 
-           font-weight: bolder;
-           color: #fafefe;
-        }
-        #records{
-           margin-left: 64%;
-           margin-top: -10%;  
-           font-size: 20px; 
-           /* font-weight: bolder; */
-           color: #fafefe;   
-        }
+           } 
        
+       .pictures{
+        display: grid;
+        margin-left: 50%; 
+        margin-left: 40%; 
+        font-family: 'Times New Roman', Times, serif;
+       
+       }
+       #quinte{
+           margin-top: -45%; 
+           margin-left: 25%;  
+           color: aliceblue;
+           font-size: 60px;
+          }
+       #podmic{
+        width: 410px;  
+        height: 460px; 
+        margin-left: -10%;
+       
+        margin-left: -66%;
+       }
+       #mama{
+           width: 910px;  
+           height: 960px;   
+           margin-left: 1%;
+           
+       }
+       #slogan{
+        margin-top: -20%;
+        margin-left: 10%;
+        color: #1BEFFC; 
+        font-size: 50px;  
+       }
+       #show{
+            margin-top: -0.2%; 
+           margin-left: 10%;
+           color: #b10ee2; 
+           font-size: 50px;    
+       }
 
-}
+} 
 
 @media screen and (min-width: 911px) and (max-width: 1000px) {
-    body{
-        background-color: #A4B5C4; 
-        
-       }
-       .title{
-        font-size: xx-large; 
-       margin-top: 10%;
-       margin-left: 10%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #wave{
-           margin-top: -10%; 
-           margin-left: 6%;  
-          }
-       
-       .intro{
-        /* margin-top: 30%;  */
-        margin-left: -14%;  
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        background-color: #092D4C;
+        position: relative;
+        z-index: 1000;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      .logo img {
+        height: 50px;
+        width: 89px;
+      }
+      nav ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-left: -20%;
+        gap: 100px;
+      }
+      nav ul li {
+        padding-right: 74px;
+        font-size: 27px;
+      }
+      nav ul li a {
         color: white;
+        text-decoration: none;
+      }
+      nav ul li a.active {
+        color: #FFA500;
+      }
+      .hamburger {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        z-index: 1000;
+      }
+      .hamburger span {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin-bottom: 5px;
+        transition: all 0.3s ease-in-out;
+      }
+      .hamburger.open span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+      .hamburger.open span:nth-child(2) {
+        opacity: 0;
+      }
+      .hamburger.open span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+      }
+    
+    .title{
+        margin-top: -0.5%;   
        }
-       #quinte{
-           margin-top:-5%; 
-           margin-left: 10%;  
-           color: rgb(230, 20, 20);  
-           font-size: 60px; 
-           /* font-weight: bolder; */
-       }
-       #slogan{
-       font-size: 40px; 
-       margin-left: 10%;
-       color: rgb(36, 133, 133);
-       font-weight: bolder;  
-       margin-top: -4%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #soon{
-        font-weight: bolder;   
-        font-size: 70px;
-        margin-top: 6%;
-        margin-left: 10%;
-       }
-       
-       #show{
-        margin-left: 10%;   
-       }
-       #Kur{
-        margin-left: 62%;
-        margin-top: -30%;
-         border-radius: 160px;
-        width: 120px;
-        height: 120px;
-        display: grid;
-        gap: 5%; 
-       
-       }
-       
-       #Ndau{
-           margin-left: 56%;
-           margin-top: -7%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;    
-       }
-       #profiles{
-           margin-left: 70%;
-           margin-top: -5%;
-           gap: 5%; 
-           color: rgb(7, 38, 66); 
-           font-size: 20px;      
-           }
-           #call{
-            margin-top: 25%; 
-            margin-left: 60%; 
-            background-color: rgb(241, 189, 18); 
+            
+            #call{
+            margin-top: 30%; 
+            margin-left: 70%; 
+            background-color: rgb(246, 58, 221); 
             border-radius: 12px;
             padding: 10px 20px;
             font-size: medium;
-           }
-        #amplifyer{
-           margin-left: 56%;
-           margin-top: -18%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;   
-        }  
-        #free{
-           margin-left: 64%;
-           margin-top: -5%; 
-           font-size: 15px;
-           color: aliceblue;  
-        } 
-        #vida{
-           margin-left: 60%;
-           margin-top: 6%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%; 
-        }
-        #five{
-           margin-left: 60%;
-           margin-top: -1%;  
-           font-size: 100px; 
-           font-weight: bolder;
-           color: #fafefe;
-        }
-        #records{
-           margin-left: 64%;
-           margin-top: -10%;  
-           font-size: 20px; 
-           /* font-weight: bolder; */
-           color: #fafefe;   
-        }
+           } 
        
-
-}
+       .pictures{
+        flex-wrap: wrap;
+        margin-left: 50%; 
+        margin-left: 40%; 
+        font-family: 'Times New Roman', Times, serif;
+       
+       }
+       #quinte{
+           margin-top: -45%; 
+           margin-left: 25%;  
+           color: aliceblue;
+           font-size: 60px;
+          }
+       #podmic{
+        width: 910px;  
+        height: 960px; 
+        margin-left: -10%;
+       
+        margin-left: -66%;
+       }
+       #mama{
+           width: 910px;  
+           height: 960px;   
+           margin-left: 1%;
+           
+       }
+       #slogan{
+        margin-top: -20%;
+        margin-left: 10%;
+        color: #1BEFFC; 
+        font-size: 50px;  
+       }
+       #show{
+            margin-top: -0.2%; 
+           margin-left: 10%;
+           color: #0e38f1; 
+           font-size: 50px;    
+       }
+    }
 
 @media screen and (min-width: 1000px) and (max-width:1050px){
-    body{
-        background-color: #A4B5C4; 
-        
-       }
-       .title{
-        font-size: xx-large; 
-       margin-top: 10%;
-       margin-left: 10%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #wave{
-           margin-top: -10%; 
-           margin-left: 6%;  
-          }
-       
-       .intro{
-        /* margin-top: 30%;  */
-        margin-left: -14%;  
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        background-color: #092D4C;
+        position: relative;
+        z-index: 1000;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      .logo img {
+        height: 50px;
+        width: 89px;
+      }
+      nav ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-left: -20%;
+        gap: 100px;
+      }
+      nav ul li {
+        padding-right: 74px;
+        font-size: 27px;
+      }
+      nav ul li a {
         color: white;
+        text-decoration: none;
+      }
+      nav ul li a.active {
+        color: #FFA500;
+      }
+      .hamburger {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        z-index: 1000;
+      }
+      .hamburger span {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin-bottom: 5px;
+        transition: all 0.3s ease-in-out;
+      }
+      .hamburger.open span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+      .hamburger.open span:nth-child(2) {
+        opacity: 0;
+      }
+      .hamburger.open span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+      }
+    
+    .title{
+        margin-top: -0.5%;   
        }
-       #quinte{
-           margin-top:-5%; 
-           margin-left: 10%;  
-           color: rgb(230, 20, 20);  
-           font-size: 60px; 
-           /* font-weight: bolder; */
-       }
-       #slogan{
-       font-size: 40px; 
-       margin-left: 10%;
-       color: rgb(36, 133, 133);
-       font-weight: bolder;  
-       margin-top: -4%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #soon{
-        font-weight: bolder;   
-        font-size: 70px;
-        margin-top: 6%;
-        margin-left: 10%;
-       }
-       
-       #show{
-        margin-left: 10%;   
-       }
-       #Kur{
-        margin-left: 62%;
-        margin-top: -30%;
-         border-radius: 160px;
-        width: 120px;
-        height: 120px;
-        display: grid;
-        gap: 5%; 
-       
-       }
-       
-       #Ndau{
-           margin-left: 56%;
-           margin-top: -7%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;    
-       }
-       #profiles{
-           margin-left: 70%;
-           margin-top: -5%;
-           gap: 5%; 
-           color: rgb(7, 38, 66); 
-           font-size: 20px;      
-           }
-           #call{
-            margin-top: 25%; 
-            margin-left: 60%; 
-            background-color: rgb(241, 189, 18); 
+            
+            #call{
+            margin-top: 30%; 
+            margin-left: 70%; 
+            background-color: rgb(246, 9, 84); 
             border-radius: 12px;
             padding: 10px 20px;
             font-size: medium;
-           }
-        #amplifyer{
-           margin-left: 56%;
-           margin-top: -18%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;   
-        }  
-        #free{
-           margin-left: 64%;
-           margin-top: -5%; 
-           font-size: 15px;
-           color: aliceblue;  
-        } 
-        #vida{
-           margin-left: 60%;
-           margin-top: 6%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%; 
-        }
-        #five{
-           margin-left: 60%;
-           margin-top: -1%;  
-           font-size: 100px; 
-           font-weight: bolder;
-           color: #fafefe;
-        }
-        #records{
-           margin-left: 64%;
-           margin-top: -10%;  
-           font-size: 20px; 
-           /* font-weight: bolder; */
-           color: #fafefe;   
-        }
+           } 
        
+       .pictures{
+        display: flex;
+        margin-left: 50%; 
+        margin-left: 40%; 
+        font-family: 'Times New Roman', Times, serif;
+       
+       }
+       #quinte{
+           margin-top: -45%; 
+           margin-left: 25%;  
+           color: aliceblue;
+           font-size: 60px;
+          }
+       #podmic{
+        width: 910px;  
+        height: 960px; 
+        margin-left: -10%;
+       
+        margin-left: -66%;
+       }
+       #mama{
+           width: 910px;  
+           height: 960px;   
+           margin-left: 1%;
+           
+       }
+       #slogan{
+        margin-top: -20%;
+        margin-left: 10%;
+        color: #1BEFFC; 
+        font-size: 50px;  
+       }
+       #show{
+            margin-top: -0.2%; 
+           margin-left: 10%;
+           color: #f60acf; 
+           font-size: 50px;    
+       }
 
 }
 
 @media screen and (min-width: 1050px) and (max-width:1300px){
-    body{
-        background-color: #A4B5C4; 
-        
-       }
-       .title{
-        font-size: xx-large; 
-       margin-top: 10%;
-       margin-left: 10%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #wave{
-           margin-top: -10%; 
-           margin-left: 6%;  
-          }
-       
-       .intro{
-        /* margin-top: 30%;  */
-        margin-left: -14%;  
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        background-color: #092D4C;
+        position: relative;
+        z-index: 1000;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      .logo img {
+        height: 50px;
+        width: 89px;
+      }
+      nav ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-left: -20%;
+        gap: 100px;
+      }
+      nav ul li {
+        padding-right: 74px;
+        font-size: 27px;
+      }
+      nav ul li a {
         color: white;
+        text-decoration: none;
+      }
+      nav ul li a.active {
+        color: #FFA500;
+      }
+      .hamburger {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        z-index: 1000;
+      }
+      .hamburger span {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin-bottom: 5px;
+        transition: all 0.3s ease-in-out;
+      }
+      .hamburger.open span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+      .hamburger.open span:nth-child(2) {
+        opacity: 0;
+      }
+      .hamburger.open span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+      }
+    
+    .title{
+        margin-top: -0.5%;   
        }
-       #quinte{
-           margin-top:-5%; 
-           margin-left: 10%;  
-           color: rgb(230, 20, 20);  
-           font-size: 60px; 
-           /* font-weight: bolder; */
-       }
-       #slogan{
-       font-size: 40px; 
-       margin-left: 10%;
-       color: rgb(36, 133, 133);
-       font-weight: bolder;  
-       margin-top: -4%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #soon{
-        font-weight: bolder;   
-        font-size: 70px;
-        margin-top: 6%;
-        margin-left: 10%;
-       }
-       
-       #show{
-        margin-left: 10%;   
-       }
-       #Kur{
-        margin-left: 62%;
-        margin-top: -30%;
-         border-radius: 160px;
-        width: 120px;
-        height: 120px;
-        display: grid;
-        gap: 5%; 
-       
-       }
-       
-       #Ndau{
-           margin-left: 56%;
-           margin-top: -7%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;    
-       }
-       #profiles{
-           margin-left: 70%;
-           margin-top: -5%;
-           gap: 5%; 
-           color: rgb(7, 38, 66); 
-           font-size: 20px;      
-           }
-           #call{
-            margin-top: 25%; 
-            margin-left: 60%; 
-            background-color: rgb(241, 189, 18); 
+            
+            #call{
+            margin-top: 30%; 
+            margin-left: 70%; 
+            background-color: rgb(188, 239, 17); 
             border-radius: 12px;
             padding: 10px 20px;
             font-size: medium;
-           }
-        #amplifyer{
-           margin-left: 56%;
-           margin-top: -18%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;   
-        }  
-        #free{
-           margin-left: 64%;
-           margin-top: -5%; 
-           font-size: 15px;
-           color: aliceblue;  
-        } 
-        #vida{
-           margin-left: 60%;
-           margin-top: 6%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%; 
-        }
-        #five{
-           margin-left: 60%;
-           margin-top: -1%;  
-           font-size: 100px; 
-           font-weight: bolder;
-           color: #fafefe;
-        }
-        #records{
-           margin-left: 64%;
-           margin-top: -10%;  
-           font-size: 20px; 
-           /* font-weight: bolder; */
-           color: #fafefe;   
-        }
+           } 
        
+       .pictures{
+        display: flex;
+        margin-left: 50%; 
+        margin-left: 40%; 
+        font-family: 'Times New Roman', Times, serif;
+       
+       }
+       #quinte{
+           margin-top: -45%; 
+           margin-left: 25%;  
+           color: aliceblue;
+           font-size: 60px;
+          }
+       #podmic{
+        width: 910px;  
+        height: 960px; 
+        margin-left: -10%;
+       
+        margin-left: -66%;
+       }
+       #mama{
+           width: 910px;  
+           height: 960px;   
+           margin-left: 1%;
+           
+       }
+       #slogan{
+        margin-top: -20%;
+        margin-left: 10%;
+        color: #1BEFFC; 
+        font-size: 50px;  
+       }
+       #show{
+            margin-top: -0.2%; 
+           margin-left: 10%;
+           color: #f34a07; 
+           font-size: 50px;    
+       }
 
-}
+} 
 
 @media screen and (min-width: 280px) and (max-width: 319px) {
-    body{
-        background-color: #A4B5C4; 
-        
-       }
-       .title{
-        font-size: xx-large; 
-       margin-top: 10%;
-       margin-left: 10%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #wave{
-           margin-top: -10%; 
-           margin-left: 6%;  
-          }
-       
-       .intro{
-        /* margin-top: 30%;  */
-        margin-left: -14%;  
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        background-color: #092D4C;
+        position: relative;
+        z-index: 1000;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      .logo img {
+        height: 50px;
+        width: 89px;
+      }
+      nav ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-left: -20%;
+        gap: 100px;
+      }
+      nav ul li {
+        padding-right: 74px;
+        font-size: 27px;
+      }
+      nav ul li a {
         color: white;
+        text-decoration: none;
+      }
+      nav ul li a.active {
+        color: #FFA500;
+      }
+      .hamburger {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        z-index: 1000;
+      }
+      .hamburger span {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin-bottom: 5px;
+        transition: all 0.3s ease-in-out;
+      }
+      .hamburger.open span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+      .hamburger.open span:nth-child(2) {
+        opacity: 0;
+      }
+      .hamburger.open span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+      }
+    
+    .title{
+        margin-top: -0.5%;   
        }
-       #quinte{
-           margin-top:-5%; 
-           margin-left: 10%;  
-           color: rgb(230, 20, 20);  
-           font-size: 60px; 
-           /* font-weight: bolder; */
-       }
-       #slogan{
-       font-size: 40px; 
-       margin-left: 10%;
-       color: rgb(36, 133, 133);
-       font-weight: bolder;  
-       margin-top: -4%;
-       font-family: 'Times New Roman', Times, serif;
-       }
-       #soon{
-        font-weight: bolder;   
-        font-size: 70px;
-        margin-top: 6%;
-        margin-left: 10%;
-       }
-       
-       #show{
-        margin-left: 10%;   
-       }
-       #Kur{
-        margin-left: 62%;
-        margin-top: -30%;
-         border-radius: 160px;
-        width: 120px;
-        height: 120px;
-        display: grid;
-        gap: 5%; 
-       
-       }
-       
-       #Ndau{
-           margin-left: 56%;
-           margin-top: -7%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;    
-       }
-       #profiles{
-           margin-left: 70%;
-           margin-top: -5%;
-           gap: 5%; 
-           color: rgb(7, 38, 66); 
-           font-size: 20px;      
-           }
-           #call{
-            margin-top: 25%; 
-            margin-left: 60%; 
-            background-color: rgb(241, 189, 18); 
+            
+            #call{
+            margin-top: 30%; 
+            margin-left: 70%; 
+            background-color: rgb(191, 222, 33); 
             border-radius: 12px;
             padding: 10px 20px;
             font-size: medium;
-           }
-        #amplifyer{
-           margin-left: 56%;
-           margin-top: -18%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%;   
-        }  
-        #free{
-           margin-left: 64%;
-           margin-top: -5%; 
-           font-size: 15px;
-           color: aliceblue;  
-        } 
-        #vida{
-           margin-left: 60%;
-           margin-top: 6%;
-            border-radius: 160px;
-           width: 120px;
-           height: 120px;
-           display: grid;
-           gap: 5%; 
-        }
-        #five{
-           margin-left: 60%;
-           margin-top: -1%;  
-           font-size: 100px; 
-           font-weight: bolder;
-           color: #fafefe;
-        }
-        #records{
-           margin-left: 64%;
-           margin-top: -10%;  
-           font-size: 20px; 
-           /* font-weight: bolder; */
-           color: #fafefe;   
-        }
+           } 
        
+       .pictures{
+        flex-wrap: wrap;
+        width: 445px;
+        margin-left: 50%; 
+        margin-left: 40%; 
+        font-family: 'Times New Roman', Times, serif;
+       
+       }
+       #quinte{
+           margin-top: -45%; 
+           margin-left: 25%;  
+           color: aliceblue;
+           font-size: 60px;
+          }
+       #podmic{
+        width: 910px;  
+        height: 960px; 
+        margin-left: -10%;
+       
+        margin-left: -66%;
+       }
+       #mama{
+           width: 910px;  
+           height: 960px;   
+           margin-left: 1%;
+           
+       }
+       #slogan{
+        margin-top: -20%;
+        margin-left: 10%;
+        color: #1BEFFC; 
+        font-size: 50px;  
+       }
+       #show{
+            margin-top: -0.2%; 
+           margin-left: 10%;
+           color: #2aec11; 
+           font-size: 50px;    
+       }
 
 }
+ 
+
+   
+    /* header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #092D4C;
+    position: relative;
+    z-index: 1000;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .logo img {
+    height: 50px;
+    width: 89px;
+  }
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -20%;
+    gap: 100px;
+  }
+  nav ul li {
+    padding-right: 74px;
+    font-size: 27px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  nav ul li a.active {
+    color: #FFA500;
+  }
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  .hamburger.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  .hamburger.open span:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+  }
 
 
 
+
+
+
+
+    */
