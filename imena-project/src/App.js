@@ -1,12 +1,12 @@
 
-import Content from './Podcast/content';
+import Podcast from './Podcast';
 
 
 function App() {
   return (
     <div className="App">
      
-     <Content/>
+     <Podcast/>
     </div>
   );
 }

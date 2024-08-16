@@ -1,7 +1,12 @@
 
 import './index.css';
+import mic2 from '../Images/mic2.webp'
+import woman from '../Images/woman.jpg'
+import multimedia from '../Images/multimedia.png'
+
 import React, { useState, useEffect } from 'react';
-function Content() {
+
+function Podcast() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
   useEffect(() => {
@@ -17,10 +22,11 @@ function Content() {
 
 
     return(
+      <div className='page-podcast'>
       <div className={isMenuOpen ? 'menu-open' : ''}>
       <header>
         <div className="logo">
-          <img src="/images/multimedia.png"/>
+        <img  id='media' src ={multimedia} alt='multimedia'></img>
         </div>
         {isMobile && (
           <div className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
@@ -42,25 +48,45 @@ function Content() {
         )}
       </header>
         <div className='title'>
-        <br></br>
-        <div className='pictures'>
-       <img id='podmic'  src ='./images/podmicr.png'alt='p'></img>
-       
-       <img  id='mama' src ='./images/mama.jpg'alt='m'></img>
-       </div>
-        <p id='slogan'>Listen as we bring you <br/>Unleashing insights,</p>
-          <p id='show'>Coming Soon!</p>
-          <p id='quinte' >Quintessential <br/>
-         Podcast</p>
+        <div >
+           <img  id='mic2' src ={mic2} alt='mic2'></img>
+                </div>
+
+               
+                 <div >
+                    <img  id='mama' src ={woman} alt='mama'></img>
+                </div>
+            
+
+            <div  >
+              <p id='quinte'>Quintessential Podcast</p>
+            </div>
+
+            <div >
+              <p id='insight' >Listen as we bring you Unleashing insights,</p>
+
+            </div>
+            <div>
+            <button id='date'>20th August</button>
+            </div>
+
+            <div>
+               <p id='show'>Coming Soon!</p>
+            </div>
+
+         
+            
+            </div>
+            </div>
+      
           
-          
-          <button id='call'>20th August</button>
          
         </div>
-        </div>
+        
+        
         
 
     );
 };
 
-export default Content;
+export default Podcast;
